@@ -745,7 +745,7 @@ strong, .bold {
 	left: 64px;
 	top: 17px;
 	color: #fff;
-	font-family: "Opensans";
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	text-align: left;
 	width: 100px;
@@ -884,7 +884,7 @@ strong, .bold {
 
 .p-footer .text {
 	font-size: 12px;
-	font-family: "Opensans";
+	font-family: 'Open Sans', sans-serif;
 	text-transform: uppercase;
 }
 
@@ -909,7 +909,7 @@ strong, .bold {
 	border-radius: 100%;
 	margin-left: -24px;
 	transition: 0.3s;
-	font-family: "Opensans";
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	font-size: 14px;
 }
@@ -1179,7 +1179,7 @@ strong, .bold {
 }
 
 .page p.light {
-	font-family: 'OpenSans-Light';
+	font-family: 'Open Sans', sans-serif;
 }
 
 .page h4 {
@@ -1372,14 +1372,7 @@ strong, .bold {
 	position: relative;
 }
 
-
-
 /* Clock */
-
-
-
-
-
 
 .page-register .content {
 	/*    margin-top: -4rem;*/
@@ -1514,7 +1507,7 @@ strong, .bold {
 	padding: 0.5em 1em;
 	min-width: 200px;
 	font-size: 20px;
-	font-family: "Opensans";
+	font-family: 'Open Sans', sans-serif;
 	display: block;
 	width: 100%;
 	box-shadow: none;
@@ -1705,4 +1698,7 @@ strong, .bold {
 
 .upper {
 	text-transform: uppercase;
+}
+.after, .before {
+	white-space: nowrap;
 }
