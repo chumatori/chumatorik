@@ -1309,7 +1309,6 @@ strong, .bold {
 	border-left: 4px solid currentColor;
 	padding-left: 10px;
 	margin-left: 6px;
-	max-width: 180px;
 }
 
 .page .content .subhead {
