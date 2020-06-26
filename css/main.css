@@ -1261,7 +1261,7 @@ strong, .bold {
 
 .page-home .content, .page-home.page-cent .content {
 	position: relative;
-	max-width: 1200px;
+/* 	max-width: 1200px; */
 	width: 100%;
 }
 
@@ -1285,6 +1285,7 @@ strong, .bold {
 	text-align: left;
 	/*	text-align: center;*/
 	position: relative;
+	padding-left: 56px;
 }
 
 .page-home .content .header>div {
@@ -1316,7 +1317,7 @@ strong, .bold {
 	text-align: left;
 	position: absolute;
 	position: relative;
-	padding-left: 40px;
+	padding-left: 32px;
 	color: rgba(255, 255, 255, 0.2);
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
@@ -1330,8 +1331,8 @@ strong, .bold {
 	height: 1px;
 	width: 32px;
 	background: currentColor;
-	left: 0px;
-	top: 14px;
+	right: calc(100% - 32px);
+	top: 50%;
 }
 
 .page .content .subhead:hover {
