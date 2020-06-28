@@ -813,7 +813,7 @@ strong, .bold {
 .page-cover {
 	width: 100%;
 	position: fixed;
-	height: 100%;
+	height: auto;
 	z-index: 0;
 }
 
@@ -1674,8 +1674,8 @@ strong, .bold {
 }
 
 .video-container video {
-	height: 724px;
-	width: 1287px;
+	height: auto !important;
+	width: 100% !important;
 	margin-top: -42px;
 	margin-left: 0px;
 }
