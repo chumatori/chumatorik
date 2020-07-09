@@ -532,7 +532,6 @@ strong, .bold {
 	margin-right: 14px;
 	position: absolute;
 	transform: translateY(-50%);
-
 }
 
 #fp-nav span, .fp-slidesNav span {
@@ -858,8 +857,8 @@ strong, .bold {
 
 .page-main {
 	position: relative;
-	margin-left: 0;
-	width: 100%;
+	margin-left: 50%;
+	width: 50%;
 	height: 100%;
 }
 
@@ -867,7 +866,6 @@ strong, .bold {
 
 .p-footer {
 	bottom: 0;
-	right: 0;
 	position: absolute;
 	width: 50%;
 	padding-top: 5rem;
@@ -1109,7 +1107,6 @@ strong, .bold {
 	text-align: left;
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
-	padding-left: 50%;
 }
 
 .page .content>.contact, .page .content>.page-block, .page .content>.text, .page .content>.p-title, .page .content>div {
@@ -1352,6 +1349,16 @@ strong, .bold {
 	top: 0;
 	bottom: 0;
 	right: 50%;
+	}
+
+.pane-when:after {
+	position: absolute;
+	content: "";
+	top: 25%;
+	right: 0;
+	height: 50%;
+	width: 1px;
+	border-left: 1px solid #fff;
 }
 
 .page-register .content {
