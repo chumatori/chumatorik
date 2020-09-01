@@ -1,5 +1,5 @@
 .pane-when
-  z-index: 0
+  z-index: 1
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -28,7 +28,6 @@
       width: 2px
       background-color: #fff
 
-
     h3
       position: relative
       text-transform: uppercase
@@ -41,94 +40,94 @@
       font-weight: bold
       border-bottom: 8px solid rgba(255, 255, 255, 0.2)
       margin-bottom: 36px
-    .decor
-      &::before
-        content: ""
-        position: absolute
-        left: 0
-        width: 80px
-        height: 2px
-        top: 54px
-        background-color: #fff
-        
-      &::after
-        content: ""
-        position: absolute
-        right: 0
-        width: 80px
-        height: 2px
-        top: 54px
-        background-color: #fff
+  .decor
+    &::before
+      content: ""
+      position: absolute
+      left: 0
+      width: 80px
+      height: 2px
+      top: 54px
+      background-color: #fff
+      
+    &::after
+      content: ""
+      position: absolute
+      right: 0
+      width: 80px
+      height: 2px
+      top: 54px
+      background-color: #fff
 
-    form
-      display: table
-      width: 100%
-      input, button, #remember-container
-        display: table-row
-        width: 100%
-      input
-        background: rgba(255, 255, 255, .1)
-        height: 46px
-        min-height: 36px
-        width: 100%
-        box-shadow: none
-        border: none
-        outline: none
-        margin: .5rem 0
-        padding: 0 .5rem
-        font-size: 20px
-        color: #ffffff
-        &::-webkit-input-placeholder
-          text-align: center
-        &:-moz-placeholder
-          text-align: center
-        &::-moz-placeholder
-          text-align: center
-        &:-ms-input-placeholder
-          text-align: center
-        border-bottom: 1px solid #5677fc
-        border-bottom-color: #ffffff
-      button
-        font-family: 'Open Sans', sans-serif
-        text-decoration: none
-        position: relative
-        width: 60%
-        display: block
-        margin: 0 auto
-        font-size: 20px
-        color: #000
-        border: none
-        text-align: center
-        padding: 0.5rem 1rem
-        background: #ffffff
-        font-weight: 700
-        margin-top: 36px
-        z-index: 2
-        transition: 0.3s
-        &:after
-          z-index: -1;
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          right: 50%;
-          bottom: 50%;
-          content: "";
-          background: #1d1d1d
-          opacity: 0;
-          border-radius: 120px;
-          -webkit-transition: 0.3s;
-          transition: 0.3s;
-        &:hover::after
-          opacity: 1;
-          border-radius: 0;
-          top: 0;
-          left: 0;
-          right: 0;
-          bottom: 0;
-          background: #1d1d1d
-        &:hover
-          background: #1d1d1d;
-          color: #ffffff;
+#login_form
+  display: table
+  width: 100%
+  input, button, #remember-container
+    display: table-row
+    width: 100%
+  input
+    background: rgba(255, 255, 255, .1)
+    height: 46px
+    min-height: 36px
+    width: 100%
+    box-shadow: none
+    border: none
+    outline: none
+    margin: .5rem 0
+    padding: 0 .5rem
+    font-size: 20px
+    color: #ffffff
+    &::-webkit-input-placeholder
+      text-align: center
+    &:-moz-placeholder
+      text-align: center
+    &::-moz-placeholder
+      text-align: center
+    &:-ms-input-placeholder
+      text-align: center
+    border-bottom: 1px solid #5677fc
+    border-bottom-color: #ffffff
+  button
+    font-family: 'Open Sans', sans-serif
+    text-decoration: none
+    position: relative
+    width: 60%
+    display: block
+    margin: 0 auto
+    font-size: 20px
+    color: #000
+    border: none
+    text-align: center
+    padding: 0.5rem 1rem
+    background: #ffffff
+    font-weight: 700
+    margin-top: 36px
+    z-index: 2
+    transition: 0.3s
+    &:after
+      z-index: -1;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      right: 50%;
+      bottom: 50%;
+      content: "";
+      background: #1d1d1d
+      opacity: 0;
+      border-radius: 120px;
+      -webkit-transition: 0.3s;
+      transition: 0.3s;
+    &:hover::after
+      opacity: 1;
+      border-radius: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: #1d1d1d
+    &:hover
+      background: #1d1d1d;
+      color: #ffffff;
         
 
 .pane-when 

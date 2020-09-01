@@ -1692,21 +1692,21 @@ strong, .bold {
 
 /* custom */
 
-.page-home .content {
-  height: 450px;
-  padding-bottom: 77px;
-  padding-top: 45px;
-}
-
-.page-home h2 {
-  border-bottom: 8px solid rgba(255, 255, 255, 0.2);
-  display: inline-block;
-  line-height: 1.4em;
-}
-
-.page-home .header {
-  height: 286px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+@media (min-width: 1470px) {
+  .page-home .content {
+    height: 450px;
+    padding-bottom: 77px;
+    padding-top: 45px;
+  }
+  .page-home h2 {
+    border-bottom: 8px solid rgba(255, 255, 255, 0.2);
+    display: inline-block;
+    line-height: 1.4em;
+  }
+  .page-home .header {
+    height: 295px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

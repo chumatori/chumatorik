@@ -114,7 +114,7 @@ $(document).on('ready',function() {
 		$('#mainpage').fullpage({
 			menu: '#qmenu',
 			anchors: pageAnchors,
-	//		responsive: 720, // uncomment to scroll on mobile 
+		  responsive: 600, // uncomment to scroll on mobile 
 			scrollOverflow: true,
 			css3: false,
 			navigation: true,
