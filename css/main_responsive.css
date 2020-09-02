@@ -31,6 +31,13 @@ http://themeforest.net/licenses
 /* Screen Small than 768px */
 
 @media (max-width: 768px) {
+  #fp-nav.right {
+    right: 0;
+    margin-right: 2px;
+  }
+  .fp-section .content {
+    padding-left: 0px;
+  }
   .page-home .content h2 {
     font-size: 46px;
   }
@@ -55,7 +62,7 @@ http://themeforest.net/licenses
   .page-cent .content {
     width: 100%;
   }
-  .page-cent .content, .page-about .content {
+  .fp-section .content {
     padding-left: 16px;
     padding-right: 56px;
   }
@@ -182,12 +189,6 @@ http://themeforest.net/licenses
     width: calc(100% - 100px);
     padding: 0 0 0 5px;
     left: 50px;
-  }
-  #fp-nav.right {
-    right: 0;
-    margin-right: 2px;
-    bottom: 16px;
-    top: auto;
   }
   .page p.small {
     font-size: 12px;
