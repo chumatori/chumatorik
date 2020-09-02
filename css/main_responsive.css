@@ -96,7 +96,7 @@ http://themeforest.net/licenses
 
 @media (max-width: 600px) {
   .header-top {
-    background-color: rgb(40 35 35);
+    background-color: #1d1d1d;
     right: 0;
   }
   .pane-when {
@@ -106,7 +106,7 @@ http://themeforest.net/licenses
     left: 56px;
     top: 56px;
     bottom: auto;
-    background-color: rgb(40 35 35);
+    background-color: #1d1d1d;
   }
   .pane-when footer, .pane-when .content h3, .pane-when .content span, .pane-when::after, .pane-when .content:after, .pane-when .content:before, .p-footer .arrow-d {
     display: none;
@@ -149,12 +149,16 @@ http://themeforest.net/licenses
     margin-left: auto;
     width: 100%;
   }
-  /* .page-cent .content, .page-about .content { */
-  .section section.content {
-    padding-left: 64px;
-    padding-right: 32px;
-    padding-bottom: 90px;
-    padding-top: 0;
+  .fp-tableCell {
+    position: relative;
+  }
+  .page-home.page-cent .content, .page-cent .content {
+    position: absolute;
+    padding: 0;
+    padding-left: 16px;
+    top: 160px;
+    left: 56px;
+    width: calc(100% - 90px);
   }
   .page-cent .p-title h3 {
     font-size: 20px;
@@ -178,9 +182,6 @@ http://themeforest.net/licenses
   }
   .page p.small {
     font-size: 12px;
-  }
-  #s-about-us>div>section {
-    padding-bottom: 60px;
   }
   #s-about-us p {
     font-size: 3vw;
