@@ -21,6 +21,11 @@ http://themeforest.net/licenses
   .page-home .content .header {
     padding-left: 32px;
   }
+  .quick-link li:hover .title {
+    display: none;
+    opacity: 0;
+    visibility: hidden;
+  }
 }
 
 /* Screen Small than 768px */
@@ -106,7 +111,6 @@ http://themeforest.net/licenses
     left: 56px;
     top: 56px;
     bottom: auto;
-    background-color: #1d1d1d;
   }
   .pane-when footer, .pane-when .content h3, .pane-when .content span, .pane-when::after, .pane-when .content:after, .pane-when .content:before, .p-footer .arrow-d {
     display: none;
@@ -123,11 +127,16 @@ http://themeforest.net/licenses
   #login_form button {
     position: absolute;
     margin: 0;
-    width: fit-content;
+    width: auto;
     top: 52px;
     right: 0px;
     height: 36px;
     font-size: 16px;
+  }
+  @-moz-document url-prefix() {
+    #login_form button {
+      top: 60px;
+    }
   }
   #login_form input {
     height: 36px;
@@ -197,21 +206,30 @@ http://themeforest.net/licenses
 
 /* Screen small than 360px */
 
-/* 
-@media (max-width: 360px) {
-  .page-contact .fields:first-child, .page-contact .contact .columns li:first-child {
-    margin-top: 0;
+@media (max-width: 350px) {
+  *:hover {}
+  .page-home.page-cent .content, .page-cent .content {
+    position: static;
+    padding: 0;
+    padding-left: 46px;
+    width: calc(100% - 23px);
   }
-  .page-contact .form .fields, .page-contact .contact .columns li {
-    margin-top: 10px;
+  .pane-when {
+    background-color: #1d1d1d;
   }
-  .page .form textarea {
-    min-height: 64px;
+  #s-home>div {
+    vertical-align: middle;
   }
-  .contact .social-links {
-    display: none;
+  #s-register>div, #s-about-us>div, #s-information>div {
+    vertical-align: middle;
   }
-} */
+  #s-information>div>section {
+    padding-bottom: 0;
+  }
+  #s-home>div>section {
+    padding-top: 100px;
+  }
+}
 
 /* Screen small than 320px */
 
