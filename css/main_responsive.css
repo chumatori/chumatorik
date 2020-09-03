@@ -161,6 +161,9 @@ http://themeforest.net/licenses
     text-align: center;
   }
   /* Main page */
+  .centering-offset {
+    height: 0px;
+  }
   .page-main {
     margin-left: auto;
     width: 100%;
