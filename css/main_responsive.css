@@ -208,8 +208,6 @@ http://themeforest.net/licenses
   }
 }
 
-/* Screen small than 360px */
-
 @media (max-width: 350px) {
   *:hover {}
   .page-home.page-cent .content, .page-cent .content {
@@ -235,70 +233,6 @@ http://themeforest.net/licenses
   }
 }
 
-/* Screen small than 320px */
-
-/* 
-@media (max-width: 320px) {
-  .pane-when {
-    top: 36px;
-    left: 0;
-    right: 20px;
-    bottom: auto;
-  }
-  .pane-when::after {
-    display: none;
-  }
-  .pane-when .clock {
-    width: 180px;
-    margin-top: 28px;
-    float: right;
-  }
-  .pane-when .clock .elem-center .digit {
-    font-size: 72px;
-  }
-  .page-cent.page-contact .content {
-    padding-bottom: 40px;
-  }
-  .page-cent .p-title h2 {
-    font-size: 24px;
-  }
-  .p-footer {
-    display: none;
-  }
-  .header-top {
-    height: 32px;
-  }
-  .header-top .logo img {
-    height: 32px;
-    padding: 0px 10px;
-  }
-  .header-top .menu a {
-    height: 32px;
-    padding-top: 5px;
-  }
-  .page-home .logo-container {
-    top: 40px;
-  }
-  .page-home .logo-container img.h-logo {
-    height: 80px;
-  }
-  .page .form label, .page .form input, .page .form button, .page .form textarea, .page h4, .page-footer, .header-top .menu a, .page p {
-    font-size: 12px;
-  }
-  .page-cent .p-title h3 {
-    font-size: 20px;
-    border-bottom-width: 5px;
-  }
-  .page-cent .p-title h2 {
-    font-size: 20px;
-  }
-  .header-top .menu a {
-    padding-top: 6px;
-  }
-} */
-
-/* Responsive height */
-
 @media (max-height: 600px) {
   .social-links {
     display: none;
@@ -307,8 +241,6 @@ http://themeforest.net/licenses
     display: none;
   }
 }
-
-/* Responsive height */
 
 @media (max-height: 420px) {
   .page .content .clock {
@@ -362,3 +294,21 @@ http://themeforest.net/licenses
     display: none;
   }
 }
+
+@media (orientation: landscape) and (max-height: 720px) {
+  
+  .page-cover {
+    width: 100%;
+    position: fixed;
+    height: auto;
+    z-index: 100;
+  }
+  .page-cover:before {
+    font-size: 30px;
+    content: "Landscape режим не поддерживается для вашего экрана. Пожалуйста переверните устройство";
+    color: white;
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    margin-top: 20px;
+  }
