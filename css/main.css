@@ -1696,6 +1696,14 @@ strong, .bold {
   height: 75px;
 }
 
+#s-about-us .centering-offset {
+  height: 36px;
+}
+
+#s-contact .centering-offset {
+  height: 36px;
+}
+
 .page-home h2 {
   border-bottom: 8px solid rgba(255, 255, 255, 0.2);
   display: inline-block;
@@ -1704,9 +1712,9 @@ strong, .bold {
 
 @media (min-width: 1480px) {
   .page-home .content .header {
-  height: 287px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
+    height: 287px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }

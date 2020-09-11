@@ -294,21 +294,3 @@ http://themeforest.net/licenses
     display: none;
   }
 }
-
-@media (orientation: landscape) and (max-height: 720px) {
-  
-  .page-cover {
-    width: 100%;
-    position: fixed;
-    height: auto;
-    z-index: 100;
-  }
-  .page-cover:before {
-    font-size: 30px;
-    content: "Landscape режим не поддерживается для вашего экрана. Пожалуйста переверните устройство";
-    color: white;
-    position: absolute;
-    right: 20%;
-    left: 20%;
-    margin-top: 20px;
-  }
